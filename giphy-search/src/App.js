@@ -22,29 +22,6 @@ class App extends Component {
     this.handleGifSubmit = this.handleGifSubmit.bind(this);
   }
 
-//   componentDidMount() {
-//     console.log('App did mount');
-//     axios(`http://api.giphy.com/v1/gifs/search?q=${this.state.inputKeywordValue}&api_key=ac13be61daa3448c81db7e04b32be00a&limit=${this.state.inputLimitValue}`)
-//     .then(res => {
-//       this.setState({
-//           apiData: res.data.data,
-//       })
-//     })
-//   }
-// }
-
-// searchGif() {
-//   console.log('Search gif');
-//   axios(`https://api.giphy.com/v1/gifs/search?q=${this.state.inputKeywordValue}&api_key=ac13be61daa3448c81db7e04b32be00a&limit=${this.state.inputLimitValue}`)
-//   .then(res => {
-//     console.log(res.data.data[0].images.original.url);
-//     this.setState({
-//           apiData: res.data.data.images.original.url,
-//       })
-//   }).catch(err => console.log(err));
-//   console.log(this.state);
-// }
-
 handleInputKeywordChange(event) {
   this.setState({
     inputKeywordValue: event.target.value
@@ -95,5 +72,3 @@ handleGifSubmit(event) {
 }
 
 export default App;
-
-// http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=ac13be61daa3448c81db7e04b32be00a&limit=5
