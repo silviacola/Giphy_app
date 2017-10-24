@@ -65,8 +65,8 @@ GIF LIST
 .gif{
   /* border: 1px solid black; */
   align-content: center;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 300px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -74,4 +74,6 @@ GIF LIST
 }
 img {
   position: relative;
+  width: 400px;
+  height: 300px;
 }
