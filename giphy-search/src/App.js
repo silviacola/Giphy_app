@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import axios from 'axios';
 import './App.css';
 import SearchGifForm from './components/SearchGifForm';
@@ -51,10 +50,9 @@ handleGifSubmit(event) {
   render() {
     console.log('App rendering', this.state)
     return (
-      <div className="App">
+      <div className="Root">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2> GIF App</h2>
+          <h2 id="logo">GIF IT TO ME</h2>
         </div>
         <SearchGifForm 
           handleGifSubmit={this.handleGifSubmit}
