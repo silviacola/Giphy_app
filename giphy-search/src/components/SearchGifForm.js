@@ -15,18 +15,18 @@ const SearchGifForm = (props) => {
                             type='text'
                             value={props.inputKeywordValue}
                             name='keyword'
-                            placeholder='What are you looking for?'
+                            placeholder='Type here'
                             onChange={props.handleInputKeywordChange}
                         />
                     </div>
                         <br/>
                     <div className="Wrapper">
-                        <h2 className="Label">Max number of result</h2>
+                        <h2 className="Label">Max number of results?</h2>
                         <input
                             type='text'
                             value={props.inputLimitValue}
                             name='limit'
-                            placeholder='Max number of results'
+                            placeholder='Type here'
                             onChange={props.handleInputLimitChange}
                         />
                     </div>

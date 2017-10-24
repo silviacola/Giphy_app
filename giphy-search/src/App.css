@@ -50,3 +50,28 @@ button{
   height: 40px;
   align-self: center;
 }
+/***********
+GIF LIST
+************/
+.ListWrapper {
+  display: flex;
+  flex-wrap: wrap;    
+  width: 90%;
+  align-self: center;
+  justify-content: space-around;
+  padding: 1px;
+  /* border: 4px solid black; */
+}
+.gif{
+  /* border: 1px solid black; */
+  align-content: center;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 10px 0;
+}
+img {
+  position: relative;
+}

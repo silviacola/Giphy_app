@@ -52,7 +52,7 @@ handleGifSubmit(event) {
     return (
       <div className="Root">
         <div className="App-header">
-          <h2 id="logo">GIF IT TO ME</h2>
+          <h2 id="logo">GIF IT TO ME!</h2>
         </div>
         <SearchGifForm 
           handleGifSubmit={this.handleGifSubmit}
